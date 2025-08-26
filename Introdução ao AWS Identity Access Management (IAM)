@@ -1,0 +1,45 @@
+# 👥 Gerenciamento de Usuários e Grupos com AWS IAM
+
+Este projeto demonstra a criação e o gerenciamento de **usuários e grupos** no **AWS Identity and Access Management (IAM)**.  
+O IAM é um serviço **fundamental da AWS** que permite **controlar o acesso** aos recursos e serviços da nuvem de forma **segura e organizada**. 🔐☁️
+
+---
+
+## 🛠️ Passos Executados
+
+### 1️⃣ Criação de Usuário IAM
+- 👤 Foi criado um novo usuário chamado **John**.
+
+
+---
+
+### 2️⃣ Configuração de Console
+- 🔑 Foi concedido **acesso ao AWS Management Console** para o usuário.  
+- 🔒 Uma **senha personalizada** foi definida.  
+- ✅ O usuário foi configurado para **alterar a senha no primeiro login**, seguindo as boas práticas de segurança.  
+
+---
+
+### 3️⃣ Adição de Tags
+- 🏷️ Para melhorar a **organização e identificação**, foram adicionadas **tags** ao usuário:
+  - **Chave:** `Dev-Team`  
+  - **Valor:** `Developers`
+
+---
+
+### 4️⃣ Criação de Grupo de Usuários
+- 📂 Foi criado um grupo chamado **Dev-Team**, que facilita o **gerenciamento centralizado de permissões**.  
+
+---
+
+### 5️⃣ Associação de Usuário ao Grupo
+- 🔗 O usuário **John** foi adicionado ao grupo **Dev-Team**.  
+- 🔄 Dessa forma, ele **herda as permissões e políticas de acesso** atribuídas ao grupo.
+
+---
+
+## 📚 Aprendizado
+- ✅ Usuários **não devem receber permissões diretamente**, mas sim via **grupos**.  
+- ✅ O uso de **tags** facilita a **organização** em ambientes maiores.  
+- ✅ A aplicação da regra do **menor privilégio** garante **segurança e controle** no acesso.
+
