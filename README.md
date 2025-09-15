@@ -50,4 +50,3 @@ O principal objetivo é **complementar o estudo teórico** com **experiência pr
 
 ---
 
-✨ **Dica**: Recomendo adicionar um índice com **links clicáveis** para cada laboratório quando você começar a subir os labs (ex: `Lab 01 - IAM`, `Lab 02 - EC2`, etc.), assim o repositório fica bem organizado para recrutadores e avaliadores.
